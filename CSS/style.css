@@ -3,7 +3,10 @@ GENERAL CONTENT
 */
 .main{padding-top: 3%;}
 .row{padding :2% 0;}
-.grey{background-color: #6287B5}
+.grey
+{
+    background-color: #6287B5
+}
 
 /*
 TYPOGRAPHY
@@ -18,7 +21,9 @@ h2{
     font-size: 3 em;
     margin:0.67 em
 }
-
+.bio{
+    text-decoration: none;
+}
 h2.bio{color:#fff;}
 p.bio{color:#fff;}
 
@@ -50,6 +55,15 @@ header.main_nav{
 .logo a:hover{
     background-color:#fff;
     color: #7accc8;
+}
+
+.containerMain{
+    margin: auto;
+    width:80%;
+}
+.container{
+    margin:auto;
+    
 }
 /*
 IMAGES AND MEDIA
