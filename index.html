@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Christian J. Axisa</title>
+  <meta name="description" content="Portfolio for New York game designer, Christian Axisa">
+  <meta name="author" content="Christian Axisa">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Abel|Satisfy" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/skeleton.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/magnific-popup.css">
+  
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<header class="main_nav grey">
+    <div class="container">
+        <div class ="twelve columns">
+            <div class="logo"><a href="#">CHRISTIAN AXISA</a></div>
+        </div>
+    </div>
+</header>
+
+
+<div class="conatiner main">
+    <div class="row">
+        <div class="four columns portfolio">  
+            <h3>The Floor is Lava</h3>
+            <p>This game is a 2D Platformer that I made in a group project with three other students. I was a programmger and level designer for the project. The game's goal is to provide a fun and difficult platforming experience with appealling graphics.</p>
+        </div>
+        <div class="four columns portfolio">   
+                <a class="image-link" href="images/lava_pic1.png"><img src="images/lava_pic1.png"/></a>
+        </div>
+        <div class="four columns portfolio">
+            <a class="image-link" href="images/lava_pic2.png"><img src="images/lava_pic2.png" /></a>
+        </div>        
+    </div>
+
+    <div class="row">
+        <div class="four columns portfolio">
+            <h3>To Greener Pastures</h3>
+            <p>To Greener Pastures is a game I made for Hero Jam 2016 along with four other students. The game is a procedurally-generated, post-apocolyptic survival game. The game takes place in a world in turmoil as one tribe begins to search for a way out of the desert.</p>
+        </div>
+        <div class="four columns portfolio">            
+            <a class="image-link" href="images/pasture_pic1.png"><img src="images/pasture_pic1.png"/></a>
+        </div>
+        <div class="four columns portfolio">            
+            <a class="image-link" href="images/pasture_pic2.png"><img src="images/pasture_pic2.png"/></a>
+        </div>        
+    </div>
+
+    <div class="row" style="margin-bottom: 10%;">
+        <div class="four columns portfolio">   
+            <h3>Hot Doug</h3>
+            <p>Hot Doug is a 2D Platformer I made with 3 friends during highschool. Hot Doug is the story of a hot dog going on an adventure to save a pair of hot dog buns that he's in love with. (Note: This game predates Seth Rogen's <i>Sausage Fest</i>)</p>
+        </div>
+        <div class="four columns portfolio">  
+            <a class="image-link" href="images/doug_pic1.png"><img src="images/doug_pic1.png"/></a>
+        </div>
+        <div class="four columns portfolio">            
+            <a class="image-link" href="images/doug_pic2.png"><img src="images/doug_pic2.png"/>
+        </div>        
+    </div>
+
+</div><!--Container-->
+
+<div class="row grey">
+    <div class="containter">
+        <div class="four columns">
+            <img class="avatar" src="images/cj.jpg" />
+        </div>
+        <div class="eight columns">
+            <h2 class="bio">About Christian Axisa</h2>
+            <p class="bio">My name is Christian Axisa. I'm a Rochester-based game design student currently studying at RIT and looking for co-ops.</p>
+            <a href="other/axisaResume.pdf">Resume</a>
+        </div>
+    </div>
+</div><!--Row greyr-->
+
+<footer>
+    <div class="container">
+        <div class="row twelve columns">
+            <ul class="social">
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/christian-axisa-80b275127/"><i class="fa fa-linkedin-square fa-lg"></i></a></li>                    
+            </ul>
+        </div>
+        <div class="row twelve columns">
+            <p class="copyright">&copy; 2017 Christian Axisa. Magnific Popup used for lightbox effect. Abel and Satisfy fonts from google fonts.</p>
+        </div>       
+    </div>
+</footer>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="scripts/jquery.magnific-popup.js"></script>  
+  <script type="text/javascript">
+  $('.image-link').magnificPopup({
+    type: 'image',
+    mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+  
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+  
+      duration: 300, // duration of the effect, in milliseconds
+      easing: 'ease-in-out', // CSS transition easing function
+  
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function(openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    }
+  
+  });
+    </script>
+</body>
+</html>
